@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GridPasswordView">
+        <attr name="gpv_textColor" format="color|reference" />
+        <attr name="gpv_textSize" format="dimension" />
+        <attr name="gpv_lineColor" format="color" />
+        <attr name="gpv_gridColor" format="color" />
+        <attr name="gpv_lineWidth" format="dimension" />
+        <attr name="gpv_passwordLength" format="integer" />
+        <attr name="gpv_passwordVisible" format="boolean" />
+        <attr name="gpv_passwordType" format="enum">
+            <enum name="number" value="0" />
+            <enum name="text" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
